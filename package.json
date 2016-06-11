@@ -1,5 +1,6 @@
 {
   "name": "redux-shared-worker",
+  "version": "0.0.1",
   "description": "A higher order store that runs actual store in SharedWorker/WebWorker.",
   "author": "Burak Can <neoberg@gmail.com> (http://github.com/burakcan/)",
   "license": "MIT",

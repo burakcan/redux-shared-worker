@@ -73,7 +73,7 @@ const NonWorkerDemo = connect(
   props => {
     return (
       <div>
-        <h5>Normal reducer (no Worker)</h5>
+        <h5>Normal Store (no Worker)</h5>
         value: { props.value } <br />
         <button
           onClick={() => {
