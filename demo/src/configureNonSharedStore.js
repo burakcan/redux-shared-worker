@@ -6,7 +6,7 @@ wire(
     switch (action.type) {
       case 'RANDOMIZE':
         let newValue = 0;
-        for (var i = 0; i < 100000; i++) {
+        for (var i = 0; i < 100000000; i++) {
           newValue = Math.random();
         }
         return { value: newValue };

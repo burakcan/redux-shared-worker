@@ -9,7 +9,7 @@ module.exports = {
   __srcPath__: srcPath,
   __outPath__: outPath,
 
-  publicPath: '/',
+  publicPath: './',
 
   module: {
     loaders: [
